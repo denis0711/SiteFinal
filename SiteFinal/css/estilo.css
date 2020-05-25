@@ -1,0 +1,154 @@
+body, html, section#home{
+	overflow-x: hidden;
+	
+	height: 100%;
+	font-family: arial, sans-serif;
+	
+	/*background-image: url(../img/fundo5.jpg);*/
+	background-image: url(../img/fundo4.jpg);
+	
+
+}
+.fa, .fab, .fal, .far, .fas{
+	color: white;
+}
+
+.navbar-brand, .navbar-nav {
+	color:rgb(255, 255, 255);
+}
+
+a{
+	color:rgb(255, 255, 255);
+}
+
+a:hover{
+	color: #5bc0de;
+}
+
+
+
+.topo2{
+	margin-bottom: 80px;
+}
+
+
+.form-group {
+	width: 436px;
+	background-color: #fff;
+	
+	margin: 50px auto 0 auto;
+
+	padding: 41px 60px 39px;
+	
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+
+}
+
+.form-group input{
+	width:100%;
+}
+.form-group input.botao, input.datadata, input.solicitar{
+	width:35%;
+}
+.navbar-nav .nav-link:hover{
+	color: #5bc0de;
+
+}
+.topo{
+	background-color:rgb(0,0,0);
+}
+
+
+footer{
+	text-align: center;
+	color:white;
+}
+
+
+
+
+.form-group.trabalhe-form a{
+	
+	color:blue;
+}
+
+.form-group.trabalhe-form a:hover{
+	
+	text-decoration: none;
+	color: #5bc0de;
+}
+
+
+#home h1{
+	text-align: center;
+}
+
+#home img {
+	margin-bottom: 5px;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+
+}
+
+#texto h4 p{
+	text-align: center;
+}
+
+p {
+	color: black;
+
+
+}
+
+#trabalhe-css {
+	
+	margin-bottom: 10px;
+}
+
+.logo:hover{
+	 cursor: text;
+}
+
+
+@media (max-width: 575.98px) {
+	body{
+		font-size: 0.6em;
+	} 
+
+		#titulo{
+
+			font-size: 10px;
+		}
+	}
+
+	.form-group {
+		width: 90%;
+	}
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body{
+		font-size: 0.8em;
+	} 
+
+		#titulo{
+
+			font-size: 20px;
+		}
+	}
+
+	.form-group {
+		width: 90%;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
